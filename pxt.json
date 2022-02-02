@@ -1,0 +1,27 @@
+{
+    "name": "smooth_servo",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "magicbit": "github:emakefun/pxt-magicbit#ee1b367329051c8b117ca4deb5f3a467e8d12720",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
